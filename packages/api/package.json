@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "cvinhas <cvinhas@hovione.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/api.js",
+  "types": "dist/api.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./__tests__/api.test.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "log": "^0.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "typescript": "^5.5.4"
+  }
+}

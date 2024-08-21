@@ -1,0 +1,24 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "cvinhas <cvinhas@hovione.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/api-test.js",
+  "types": "dist/api-test.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./__tests__/api-test.test.js"
+  },
+  "dependencies": {
+    "log": "^0.0.0"
+  }
+}

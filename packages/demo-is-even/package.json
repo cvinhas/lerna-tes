@@ -1,0 +1,28 @@
+{
+  "name": "demo-is-even",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "cvinhas <cvinhas@hovione.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/demo-is-even.js",
+  "types": "dist/demo-is-even.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx lerna run build --scope=demo-is-odd && tsc",
+    "test": "npx lerna run build --scope=demo-is-odd && npx lerna run build --scope=demo-is-even && jest"
+  },
+  "dependencies": {
+    "demo-is-odd": "*"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.5.4"
+  }
+}
