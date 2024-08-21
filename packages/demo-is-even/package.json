@@ -1,6 +1,6 @@
 {
   "name": "demo-is-even",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "cvinhas <cvinhas@hovione.com>",
   "homepage": "",
@@ -19,7 +19,7 @@
     "test": "npx lerna run build --scope=demo-is-odd && npx lerna run build --scope=demo-is-even && jest"
   },
   "dependencies": {
-    "demo-is-odd": "*"
+    "demo-is-odd": "^0.0.1"
   },
   "devDependencies": {
     "jest": "^29.7.0",

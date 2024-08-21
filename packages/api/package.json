@@ -1,6 +1,6 @@
 {
   "name": "api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "cvinhas <cvinhas@hovione.com>",
   "homepage": "",
@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "log": "^0.0.0"
+    "log": "^0.1.0"
   },
   "devDependencies": {
     "express": "^4.19.2",
