@@ -3,5 +3,5 @@ import pino from 'pino';
 export const logger = pino();
 
 // export const tester = pino();
-export const tested = console.log('cenas 33452354');
+export const tested = console.log('cenas 3312352354');
 
